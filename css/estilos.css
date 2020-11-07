@@ -315,6 +315,9 @@ footer .instagram:hover {
   }
 
   @media screen and (max-width: 435px) {
+    body {
+        background: red;
+    }
     article {
         width: 100%;
     }
