@@ -146,7 +146,6 @@ article img:hover {
 }
 
 #sobremi img {
-    width: 15%;
     border-radius: 20%;
     margin: 10px 0;
 }
@@ -263,6 +262,11 @@ footer .instagram:hover {
     background: #3f729b;
 }
 
+ul li {
+    margin-top: 10px;
+    list-style: none;
+}
+
 @media screen and (max-width: 1110px) {
     #contacto .formulario input[type="text"],
     #contacto .formulario input[type="email"]
@@ -315,9 +319,6 @@ footer .instagram:hover {
   }
 
   @media screen and (max-width: 435px) {
-    body {
-        background: red;
-    }
     article {
         width: 100%;
     }
